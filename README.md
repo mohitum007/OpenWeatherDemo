@@ -1,6 +1,6 @@
 # Open Weather API Demo application.
 
-..* Features:
+### Features:
 
 1. Today's weather data
 2. Forcast for next 5 days
@@ -11,7 +11,7 @@ It will display the all the different temperatures for the day with the graphica
 
 ### To run the source code, please follow these steps:
 
-..* Import the project:
+### Import the project:
 
 1. Start Android Studio.
 
@@ -24,7 +24,7 @@ It will display the all the different temperatures for the day with the graphica
 5. Select the import options and click Finish.
 
 
-..*. Set up your device as follows:
+### Set up your device as follows:
 
 1. Connect your device to your development machine with a USB cable. On Windows, please install (if not installed) the appropriate USB driver for your device.
 
@@ -32,7 +32,7 @@ It will display the all the different temperatures for the day with the graphica
 
 Note: On Android 4.2 and newer, Developer options is hidden by default. To make it available, go to Settings > About phone and tap Build number seven times. Return to the previous screen to find Developer options.
 		
-..* Run the app from Android Studio as follows:
+### Run the app from Android Studio as follows:
 
 1. In Android Studio, click the app module in the Project window and then select Run > Run.
 
