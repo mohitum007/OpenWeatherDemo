@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OpenWeatherDemo</string>
+
+    <string name="launcher_text">Open Weather Demo Application</string>
+
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="loading_default_message">Loading data, please wait&#8230;</string>
+    <string name="server_error">Something went wrong, please try again later</string>
+
+    <string name="data_not_found">Sorry, no weather data found.</string>
+
+</resources>

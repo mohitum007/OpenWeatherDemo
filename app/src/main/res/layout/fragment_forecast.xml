@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/txt_vw_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        android:textSize="@dimen/small_text_size"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/img_vw_weather_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txt_vw_date"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txt_vw_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_vw_weather_icon"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:lines="1"
+        android:ellipsize="end"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/normal_text_size" />
+
+</RelativeLayout>
